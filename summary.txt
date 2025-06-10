@@ -1,0 +1,8 @@
+Create a quiz app using HTML, CSS and JS.
+
+The flow goes as thus,
+The user inputs their first name, last name and class then clicks on the start quiz button.
+Then the user answers a series of questions and answer and while this is going on the users name and class should be displayed on the top.
+At the end of the quiz, the user should get their full score/ the number of questions answered.
+
+And there should be a second page that has a record of every user that did the quiz in tnat laptop in a tabular format, the first name, the last name, the class and the score.

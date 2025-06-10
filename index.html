@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Quiz App</title>
+</head>
+<body>
+     <main>
+          <!--input-->
+          <form id="form">
+               <span class="output_span"></span>
+               <div class="input-details">
+                    <h1>Input Details</h1>
+                    <div class="firstName">
+                         <label>Full Name</label>
+                         <input type="text" id="first_Name">
+                    </div>
+                    <div class="lastName">
+                         <label>Last Name</label>
+                         <input type="text" id="last_Name">
+                    </div>
+                    <div class="classInput">
+                         <label>Class</label>
+                         <input type="text" id="class_Input">
+                    </div>
+                    <div class="button">
+                         <button id="submitBtn">Start Quiz</button>
+                    </div>
+               </div>
+          </form>
+          <!--output-->
+          <div id="question_main">    
+               <div class="display_details">
+                    <span id="display_Info"></span>
+               </div> 
+               <div class="output">
+                    <span id="output_span">Quiz</span>
+               </div>
+               <div class="question_div">
+                    <span id="question_text"></span>
+               </div>
+               <div class="Answer_div">
+                    <input type="text" id="user_Answer">
+                    <button id="submitAnsBtn">Confirm</button>
+               </div>
+               <div class="checkAnswer_div">
+                    <span id="checkAnswer"></span>
+               </div>
+
+               <div id="score_board">
+                    <span></span>
+               </div>
+          </div>
+     </main>
+     <script src="main.js"></script>
+</body>
+</html>

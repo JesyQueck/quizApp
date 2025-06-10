@@ -1,0 +1,122 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;        
+     background-color: darkgrey;
+}
+form{
+     display: flex;
+}
+#question_main{
+     height: 500px;
+     width: 400px;
+     margin: auto;
+     position: relative;
+     display: none;
+     flex-direction: column;
+     text-align: center;
+     gap: 2rem;
+     border-radius: 1rem;
+     padding: 3rem;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(10px);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.input-details{
+     position: absolute;
+     z-index: 1;
+}
+.input-details{
+     height: 500px;
+     width: 400px;
+     margin: auto;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     text-align: left;
+     gap: 1rem;
+     border-radius: 1rem;
+     padding: 3rem;
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(10px);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.firstName, .lastName, .classInput{
+     display: flex;
+     flex-direction: column;
+
+}
+.button{
+     text-align: center;
+
+}
+input{
+     border-radius: 1rem;     
+     padding: 0.5rem 0.7rem;
+}
+button{
+     padding: 0.4rem 0.5rem;
+     width: 100%;
+     color: darkgray;
+     background-color: black;
+     border: none;
+     font-weight: 600;
+}
+label{
+     font-weight: 700;
+     font-size: 0.9rem;
+     margin: 0.2rem 0;
+}
+h1{
+     font-size: 2rem;
+}
+#display_Info{
+     font-size: 1rem;
+     font-weight: 700;
+}
+#output_span{
+     font-size: 1.5rem;
+     font-weight: 800;     
+     margin: 2rem 0 1rem;
+}
+#question_text{
+     font-weight: 700;
+     padding: 2rem 0;
+     font-size: 0.9rem;
+}
+.Answer_div{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+#user_Answer{
+     width: 10rem;
+}
+#submitAnsBtn{
+     margin: 2rem auto 0rem;
+     border-radius: 1rem;
+     color: darkgray;
+     font-size: 0.9rem;
+     font-weight: 700;
+     padding: 0.5rem 1rem;
+     width: fit-content;
+}
+#checkAnswer{
+     font-size: 1.3rem;
+     font-weight: 700;
+     
+}
+#score_board{
+     font-size: 1.3rem;
+     font-weight: 700;
+}
